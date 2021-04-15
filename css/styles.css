@@ -7832,6 +7832,214 @@ button.bg-dark:focus {
     z-index: 1030;
 }
 
+.c-navbar {
+  width: 100%;
+  background-color: #000;
+  padding-top: 8px;
+}
+
+.c-container {
+  position: relative;
+  max-width:1348px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right:24px;
+  padding-left:24px;
+  opacity: 1;
+  font-family: 'Inter', sans-serif;
+  color: #f30;
+  font-size: 12px;
+}
+
+.c-container.cc-10-cols {
+  max-width:1124px
+}
+.c-nav-wrapper {
+  display:-webkit-box;
+  display:-webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c-nav-brand {
+  position: relative;
+  display: block;
+  text-decoration: none;
+}
+
+.c-lucasmujica-brand{
+  font-family: 'Fira Sans', sans-serif;
+  color:#66fcf1;
+  font-size:34px;
+  line-height: 48px;
+}
+
+.c-nav-menu {
+  display:-webkit-box;
+  display:-webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c-nav-buttons{
+  display:-webkit-box;
+  display:-webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 12px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c-nav-link {
+  padding:  28px 12px;
+  font-family: 'Montserrat', sans-serif;
+  color:#66fcf1;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+  white-space: normal;
+}
+.c-nav-brand:hover {
+  text-decoration: none;
+  text-transform: none;
+  color:#45a29e;
+}
+.c-lucasmujica-brand:hover {
+  text-decoration: none;
+  text-transform: none;
+  color:#45a29e;
+}
+.c-nav-link:hover {
+  text-decoration: none;
+  text-transform: none;
+  color:#45a29e;
+}
+
+.c-section {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 0px;
+  color: #000;
+}
+
+.c-section.cc-hero {
+  z-index: 2;
+  padding-top: 110px;
+}
+
+.c-section video {
+  z-index: 0;
+}
+.c-section.c-container{
+  z-index: 2;
+}
+
+#loading {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(192, 192, 192, 0.5);
+}
+
+#bgvideo {
+  position: absolute;
+  top:0;
+  left:0;
+width: 100%;
+height: 100vh;
+object-fit: cover;
+}
+.cc-hero {
+  height: 100%;
+}
+
+.c-hero {
+  display:-webkit-box;
+  display:-webkit-flex;
+  display: -ms-flexbox;
+  display: block;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.c-hero-left {
+  max-width:532px;
+}
+.c-tag {
+  margin-bottom:16px;
+  color:red;
+  text-transform: uppercase;
+}
+.c-heading {
+  margin-bottom:24px;
+}
+.c-sub-heading {
+  margin-bottom:40px
+}
+.c-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Inter', sans-serif;
+  color:#66fcf1;
+  font-size: 74px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.c-text-4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 800;
+  color:#e36c5c;
+}
+.c-text-1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #c5c6c7;
+}
+.c-hero-right-image {
+  position:relative;
+  left: 45px;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+
+
 @supports ((position: -webkit-sticky) or (position: sticky)) {
     .sticky-top {
         position: -webkit-sticky;
@@ -10180,7 +10388,7 @@ hr.light {
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem);
-    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead2.jpg");
+    background: #fff;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -10949,4 +11157,4 @@ h4 {
 
 .header .navbar {
     background-color: transparent !important;
-}
+}</header>
